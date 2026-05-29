@@ -19,13 +19,13 @@ Mac:
 This will remove any existing pairing file, but you will have to pair your phone again. This will get rid of the cached lockdown pairing.
 3. After deleting the stored pairing, go to Settings, click General, scroll down to "VPN and Device Management", click your email under "Developer App", and click "Delete Apps". 
 
-<img src="/assets/image0.jpg" width="600" height="600">
-<img src="/assets/IMG_1905.jpg" width="600" height="600">
+<img src="/assets/image0.jpg" width="400" height="600">
+<img src="/assets/IMG_1905.jpg" width="400" height="600">
 ![image](/assets/IMG_1905.jpg)
 Go back to iLoader, pair your phone again, and install SideStore (Stable). 
 4. Once SideStore is installed, test an app to see if it installs correctly. If it does, your pairing file is fixed and you can use SideStore as normal. If need be, change the anisette server to 'Macley'.
 
-<img src="/assets/sidestore-2.png" width="600" height="600">
+<img src="/assets/sidestore-2.png" width="400" height="600">
 
 ![image](/assets/sidestore-2.png)
 
@@ -34,12 +34,12 @@ Go back to iLoader, pair your phone again, and install SideStore (Stable).
 
 1. Open LocalDevVPN, find the Tunnel IP address.
 
-<img src="/assets/localdevvpn-1.png" width="600" height="600">
+<img src="/assets/localdevvpn-1.png" width="400" height="600">
 
 ![image](/assets/localdevvpn-1.png)
 2. Go to the SideStore settings, find VPN Configuration, and set the Device IP to the Tunnel IP address you found in LocalDevVPN.
 
-<img src="/assets/sidestore-1.png" width="600" height="600">
+<img src="/assets/sidestore-1.png" width="400" height="600">
 
 ![image](/assets/sidestore-1.png)
 3. Refresh your apps like normal.
