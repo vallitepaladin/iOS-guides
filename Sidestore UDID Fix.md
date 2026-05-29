@@ -2,11 +2,11 @@
 
 For those who are having issues with iLoader and iOS 26.4+ regarding SideStore, here is a small tutorial on how to fix your pairing file.
 
-Explanation
+# Explanation
 
 The reason your pairing file is broken is due to a borked lockdown pairing file from the old versions of iLoader. In the newer versions of iLoader a new method of pairing was implemented, RPPairing. It is a more stable method of pairing compared to lockdown, and can never expire. The pairing also stays active when switching to cellular.
 
-Guide 
+# Guide
 
 1. First, make sure you have the latest version of iLoader installed (2.2.5 or newer). 
 2. If you already have the latest iLoader installed, make sure you are logged in to your Apple ID. Scroll down and click "Delete Stored Pairing". 
@@ -25,7 +25,7 @@ Go back to iLoader, pair your phone again, and install SideStore (Stable).
 ![image](/assets/sidestore-2.png)
 
 
-Extra Steps (if the steps above do not work)
+# Extra Steps (if the steps above do not work)
 
 1. Open LocalDevVPN, find the Tunnel IP address.
 ![image](/assets/localdevvpn-1.png)
