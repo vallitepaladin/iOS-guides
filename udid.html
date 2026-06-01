@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Udid fix</title>
+        <style>
+            img {
+                max-width: 600px;
+                height: auto;
+            }
+            .portrait {
+                max-width: 275px;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>SideStore UDID Fix for iOS 26.4+</h1>
+        <p>Those who are having issues with iLoader and iOS 26.4+ regarding SideStore, here is a small tutorial on how to fix your pairing file.</p>
+        <h1>Explanation</h1>
+        <p>The reason your pairing file is broken is due to a borked lockdown pairingfile from the old versions of iLoader. In the newer versions of iLoader a new method of pairing was implemented, RPPairing. It is a more stable method of pairing compared to lockdown, and can never expire. The pairing also stays active when switching to cellular.</p>
+        <h1>Guide</h1>
+        <ol>
+            <li>First, make sure you have the latest version of iLoader installed (2.2.5 or newer).</li>
+            <li>
+                If you already have the latest iLoader installed, make sure you are logged in to your Apple ID. Scroll down and click "Delete Stored Pairing">".
+                <br>Windows: 
+                <br><img src="./assets/iloader-windows.png">"
+                <br>Linux: 
+                <br><img src="./assets/iloader-linux.png">" <br>Mac:
+                <br><img src="./assets/iloader-mac.png">" <br>This will remove any existing pairing file, but you will have to pair your phone again. This will get rid of the cached lockdown pairing.
+            </li>
+            <li>Go back to iLoader, pair your phone again, and install SideStore.</li>
+            <li>
+                Once SideStore is installed, test an app to see if it installs correctly. If it does, your pairing file is fixed and you can use SideStore as normal. If need be, change the anisette server to 'Macley'.
+                <br><img src="./assets/sidestore-ani.png" class="portrait">
+            </li>
+        </ol>
+        <h1>Extra Steps if the steps above do not work</h1>
+        <ol>
+        <li>
+            Open LocalDevVPN, find the Tunnel IP address.
+            <br><img src="./assets/local-dev.png" class="portrait">
+        </li>
+        <li>
+            Go to the SideStore settings, find VPN Configuration, and set the Device IP to the Tunnel IP address you found in LocalDevVPN.
+            <br><img src="./assets/sidestore-vpn.png" class="portrait">
+        </li>
+        <li>Refresh your apps like normal.</li>
+        </ol>
+        <h1>Extra Steps if the steps above still do not work</h1>
+        <ol>
+            <li>
+                Go to Settings, click General, scroll down to "VPN and Device Management", click your email under "Developer App", and click "Delete Apps".
+            <br><img src="./assets/vpn-and-device.jpg" class="portrait">
+            <br><img src="./assets/dev-apps.jpg" class="portrait">
+            </li>
+            <li>Go back to iLoader, pair your phone again, and install SideStore.</li>
+        </ol>
+    </body>
+</html>

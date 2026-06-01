@@ -1,2 +1,1 @@
-# Junipers-iOS-tutorials
-
+iOS tutorials
